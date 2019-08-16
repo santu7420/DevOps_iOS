@@ -109,7 +109,6 @@
 				2E6551D58142EB1D755382BD /* Pods-DevOpsiOSAppUITests.debug.xcconfig */,
 				EC3EA06AA9EBC7EB786D065A /* Pods-DevOpsiOSAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -585,16 +584,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DGPZYM6BUK;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
 				INFOPLIST_FILE = DevOpsiOSAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsiOSApp.app/DevOpsiOSApp";
@@ -607,16 +608,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DGPZYM6BUK;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
 				INFOPLIST_FILE = DevOpsiOSAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsiOSApp.app/DevOpsiOSApp";
@@ -629,14 +632,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DGPZYM6BUK;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
 				INFOPLIST_FILE = DevOpsiOSAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -650,14 +653,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DGPZYM6BUK;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
 				INFOPLIST_FILE = DevOpsiOSAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.DevOpsiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
